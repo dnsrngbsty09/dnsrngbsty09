@@ -1,0 +1,18 @@
+{
+  "name": "shooting-range",
+  "version": "0.0.1",
+  "description": "2D game created in HTML5 canvas",
+  "author": "taras-d",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "compile": "webpack --config webpack.dev.config.js",
+    "watch": "webpack -w --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "typescript": "^2.2.1",
+    "webpack": "^2.3.2"
+  }
+}

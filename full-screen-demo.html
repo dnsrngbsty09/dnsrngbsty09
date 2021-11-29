@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Full screen demo</title>
+
+        <style>
+            canvas {
+                position: fixed;
+                top: 0;
+                left: 0;
+                cursor: none;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <script src="src/bundle.js"></script>
+
+        <script>
+            var game = new ShootingRange({
+                screen: {
+                    width: window.innerWidth,
+                    height: window.innerHeight,
+                },
+                bg: { fill: 'green' },
+                gun: { fill: 'white' },
+                bullet: { fill: 'white' },
+                target: { fill: 'white' },
+                stats: { fill: 'white' }
+            });
+        </script>
+
+    </body>
+</html>
